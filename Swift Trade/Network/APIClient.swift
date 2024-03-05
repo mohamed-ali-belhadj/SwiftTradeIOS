@@ -16,8 +16,6 @@ protocol APIClient {
 
 class URLSessionAPIClient<EndpointType: APIEndpoint>: APIClient {
     func request<T: Decodable>(_ endpoint: EndpointType) -> AnyPublisher<T, Error> {
-        let excludeSuggestions = URLQueryItem(name: "exclude_suggestions", value: nil)
-
 
         var url = endpoint
             .baseURL

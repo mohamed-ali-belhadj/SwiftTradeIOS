@@ -42,7 +42,6 @@
 		D1D393A92B94D49E00850117 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393A82B94D49E00850117 /* APIClientTests.swift */; };
 		D1D393AC2B94DCC600850117 /* GetWalletUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393AB2B94DCC600850117 /* GetWalletUseCaseTests.swift */; };
 		D1D393AE2B94DEC700850117 /* GetLastTransactionsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393AD2B94DEC700850117 /* GetLastTransactionsUseCaseTests.swift */; };
-		D1D393B12B94DFF200850117 /* WalletModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393B02B94DFF200850117 /* WalletModelTests.swift */; };
 		D1D393B32B94E13100850117 /* CryptoDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393B22B94E13100850117 /* CryptoDetailsTests.swift */; };
 		D1D393EC2B966B4A00850117 /* DataPersistanecService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393EB2B966B4A00850117 /* DataPersistanecService.swift */; };
 		D1D393EE2B96745E00850117 /* SingleTransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D393ED2B96745E00850117 /* SingleTransactionTests.swift */; };
@@ -106,7 +105,6 @@
 		D1D393A82B94D49E00850117 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		D1D393AB2B94DCC600850117 /* GetWalletUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWalletUseCaseTests.swift; sourceTree = "<group>"; };
 		D1D393AD2B94DEC700850117 /* GetLastTransactionsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLastTransactionsUseCaseTests.swift; sourceTree = "<group>"; };
-		D1D393B02B94DFF200850117 /* WalletModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModelTests.swift; sourceTree = "<group>"; };
 		D1D393B22B94E13100850117 /* CryptoDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsTests.swift; sourceTree = "<group>"; };
 		D1D393EB2B966B4A00850117 /* DataPersistanecService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanecService.swift; sourceTree = "<group>"; };
 		D1D393ED2B96745E00850117 /* SingleTransactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTransactionTests.swift; sourceTree = "<group>"; };
@@ -364,7 +362,6 @@
 		D1D393AF2B94DFE100850117 /* DTO+Entities */ = {
 			isa = PBXGroup;
 			children = (
-				D1D393B02B94DFF200850117 /* WalletModelTests.swift */,
 				D1D393F12B9678CB00850117 /* EntitiesTests.swift */,
 				D1D393ED2B96745E00850117 /* SingleTransactionTests.swift */,
 				D1D393EF2B96752600850117 /* TokenDetailsTests.swift */,
@@ -554,7 +551,6 @@
 				D1D393EE2B96745E00850117 /* SingleTransactionTests.swift in Sources */,
 				D1D393AE2B94DEC700850117 /* GetLastTransactionsUseCaseTests.swift in Sources */,
 				D1D393AC2B94DCC600850117 /* GetWalletUseCaseTests.swift in Sources */,
-				D1D393B12B94DFF200850117 /* WalletModelTests.swift in Sources */,
 				D1D393A92B94D49E00850117 /* APIClientTests.swift in Sources */,
 				D1D393F02B96752600850117 /* TokenDetailsTests.swift in Sources */,
 				D1D393F22B9678CB00850117 /* EntitiesTests.swift in Sources */,

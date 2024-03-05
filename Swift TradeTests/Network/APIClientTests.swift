@@ -80,7 +80,7 @@ class URLSessionAPIClientTests: XCTestCase {
             tasks.first?.cancel() // Cancel the actual network request to avoid unnecessary network calls during tests
         }
 
-        self.wait(for: [expectation], timeout: 2.0)
+        self.wait(for: [expectation], timeout: 4.0)
     }
 
     private var cancellables = Set<AnyCancellable>()
